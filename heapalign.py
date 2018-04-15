@@ -43,8 +43,3 @@ class heapalign:
             return hex(size)
         else:
             return size
-
-a = heapalign()
-print a.align64(int(argv[1]),0)
-print a.align64(int(argv[1]),1)
-print hex(a.align32(int(argv[2])))
