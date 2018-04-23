@@ -104,6 +104,3 @@ except :
        verbose     : 1 or 0 
        '''.strip()
     exit(0)
-#finally :
-#    align.show(argv[1],int(argv[2]))
-#print align.show('i386',10,1,1)
